@@ -9,7 +9,6 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <cefSharpWPF:ChromiumWebBrowser x:Name="web" Address="file:\\C:\\Users\\admin\\Desktop\\123.html"></cefSharpWPF:ChromiumWebBrowser>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Height="35" Click="Button_Click"/>
 
     </Grid>
 </Window>

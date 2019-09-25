@@ -34,6 +34,9 @@ namespace WpfApp1
             Cef.Initialize(settings);
             InitializeComponent();
             web.KeyboardHandler = new CEFKeyBoardHander();
+            web.Address = "http://in.iflytek.com";
+            //web.Load("http://in.iflytek.com");
+            // Address="file:\\C:\\Users\\admin\\Desktop\\123.html"
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
